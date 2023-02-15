@@ -8,7 +8,7 @@ int main()
     scanf("%d",&a);
     printf("Common differnce : ");
     scanf("%d",&d);
-    for(i=a;i<n*d;i=i+d)
+    for(i=a;i<(n*d)+1;i=i+d)
     {
         printf("%d ",i);
     }
